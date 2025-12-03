@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+header {
+    text-align: center;
+    background: #c0392b;
+    color: white;
+    padding: 20px 0;
+}
+
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.card button {
+    background: #27ae60;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.card button:hover {
+    background: #219150;
+}
+
+.cart {
+    margin: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ddd;
+}
+.hapus-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hapus-btn:hover {
+    background-color: #c0392b;
+}
